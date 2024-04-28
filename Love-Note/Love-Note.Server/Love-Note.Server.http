@@ -1,0 +1,6 @@
+@Love_Note.Server_HostAddress = http://localhost:5270
+
+GET {{Love_Note.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

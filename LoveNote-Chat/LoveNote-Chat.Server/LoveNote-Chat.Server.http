@@ -1,0 +1,6 @@
+@LoveNote_Chat.Server_HostAddress = http://localhost:5236
+
+GET {{LoveNote_Chat.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

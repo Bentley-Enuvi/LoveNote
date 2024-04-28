@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoveNote-API", "LoveNote-API", "{60356B7C-B1DC-4049-A6EF-94E2928EE8B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoveNote-UI", "LoveNote-UI", "{6259B261-35F1-4219-BBFF-2E610A08A517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveNote-Chat.Server", "LoveNote-Chat\LoveNote-Chat.Server\LoveNote-Chat.Server.csproj", "{4A9010AD-2164-47F4-8EA1-414F2FDA9CA5}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "lovenote-chat.client", "LoveNote-Chat\lovenote-chat.client\lovenote-chat.client.esproj", "{8935F814-32A8-4354-8A7B-E23F5AA2F724}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C9B0CAE-4762-4F6D-9C03-C6857AF148AA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A9010AD-2164-47F4-8EA1-414F2FDA9CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9010AD-2164-47F4-8EA1-414F2FDA9CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9010AD-2164-47F4-8EA1-414F2FDA9CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9010AD-2164-47F4-8EA1-414F2FDA9CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8935F814-32A8-4354-8A7B-E23F5AA2F724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8935F814-32A8-4354-8A7B-E23F5AA2F724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8935F814-32A8-4354-8A7B-E23F5AA2F724}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8935F814-32A8-4354-8A7B-E23F5AA2F724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8935F814-32A8-4354-8A7B-E23F5AA2F724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8935F814-32A8-4354-8A7B-E23F5AA2F724}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A9010AD-2164-47F4-8EA1-414F2FDA9CA5} = {60356B7C-B1DC-4049-A6EF-94E2928EE8B5}
+		{8935F814-32A8-4354-8A7B-E23F5AA2F724} = {6259B261-35F1-4219-BBFF-2E610A08A517}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCE3B06C-DCF5-419B-ACCF-0AB862A273E8}
+	EndGlobalSection
+EndGlobal
